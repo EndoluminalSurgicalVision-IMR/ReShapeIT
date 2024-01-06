@@ -4,6 +4,9 @@
 
 [**_Implicit Shape Modeling for Anatomical Structure Refinement of Volumetric Medical Images_**]()
 
+> By Minghui Zhang, Hanxiao Zhang, Xin You, Guang-Zhong Yang and Yun Gu
+>> Institute of Medical Robotics, Shanghai Jiao Tong University
+
 ## Introduction
 Shape modeling of volumetric medical images is the critical task for quantitative analysis and surgical plan in computer-aided diagnosis. To relieve the burden of expert clinicians, the reconstructed shapes are widely 
 acquired from deep learning models, e.g. Convolutional Neural Networks (CNNs), followed by marching cube algorithm. However, automatically obtaining reconstructed shapes can not always achieve perfect results due to the 
