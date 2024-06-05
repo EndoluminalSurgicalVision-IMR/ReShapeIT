@@ -98,6 +98,8 @@ def train(model, train_dataloader, epochs, lr, steps_til_summary, epochs_til_che
                     tqdm.write("Epoch %d, Total loss %0.6f, iteration time %0.6f" % (
                         epoch, train_loss, time.time() - start_time))
                 total_steps += 1
+                if is_train and total_steps%5==0:
+                    model.module.sample_template_points()
         torch.save(model.module.cpu().state_dict(), os.path.join(checkpoints_dir, 'model_final.pth'))
         np.savetxt(os.path.join(checkpoints_dir, 'train_losses_final.txt'),
                    np.array(train_losses))
