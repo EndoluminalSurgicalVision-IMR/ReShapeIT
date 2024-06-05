@@ -4,7 +4,8 @@ epochs_til_checkpoint: 50
 expand: -1
 experiment_name: pancreas
 hidden_num: 256
-latent_dim: 256
+latent_dim: 128
+latent_template_dim: 128
 logging_root: ./logs
 loss_correct: 100.0
 loss_grad_deform: 5.0
