@@ -1,6 +1,6 @@
 ## ReshapeIT
 
-<div align=center><img src="figs/main%20ReshapeIT.png"></div>
+<div align=center><img src="figs/ReshapeIT.png"></div>
 
 [**_ReShapeIT: Reliable Shape Interaction with Implicit Template for Medical Anatomy Reconstruction_**]()
 
