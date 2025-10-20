@@ -19,6 +19,16 @@ Detailed environment configurations are listed in the file ```environment.yaml``
 Pretrained model weights are available in the folder ```checkpoint_models```.
 
 ## Usage
-The train script is provided: ```python train.py``` and the finetune script is provided: ```python finetune.py```  with the specified config files.
+To train the model, run:
+
+```
+python train.py
+```
+
+To fine-tune the model with the specified configuration files, run:
+
+```
+python finetune.py
+```
 
 
